@@ -6,7 +6,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 $passwordEncrypt = md5($password);
 
-$loginQuery = "SELECT * FROM users WHERE username = '$username' AND password = '$passwordEncryptx'";
+$loginQuery = "SELECT * FROM users WHERE username = '$username' AND password = '$passwordEncrypt'";
 
 $sql = mysqli_query($connection, $loginQuery);
 
