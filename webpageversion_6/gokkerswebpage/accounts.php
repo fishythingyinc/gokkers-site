@@ -1,6 +1,6 @@
 <?php
 session_start();
-    $connection = mysqli_connect("localhost", "root", "", "gokkers") or die("ERROR: Could not connect!" . mysqli_connect_error());
+    $connection = mysqli_connect("localhost", "root", "", "jtech_gokkers") or die("ERROR: Could not connect!" . mysqli_connect_error());
 
     if (isset($_POST['username']) && !empty ($_POST['username']))
     {
