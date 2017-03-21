@@ -52,7 +52,7 @@ if (isset($_SESSION['message'])) {
                             echo '<li>' . '<a href="logout.php">LOGOUT</a>' . '</li>';
                         }
                         ?>
-                        <li><a href="Activator.php">Activate</a></li>
+
 
 
 
@@ -140,6 +140,10 @@ if (isset($_SESSION['message'])) {
                     <div class=\"form-item\">
                         <label for=\"email\">Email:</label>
                         <input type=\"email\" name=\"email\" id=\"email\">
+                    </div>
+                    <div class=\"form-item\">
+                        <label for=\"ToS\">I agree to the terms of service.</label>
+                        <input type=\"checkbox\" name=\"ToS\" value=\"ToS\">
                     </div>
         </div>
         <div class=\"form-group\">
