@@ -52,7 +52,6 @@ class Validator
         $to      = "$email";
         $encrypt = md5($username . date("Y-m-d"));
         echo $encrypt;
-        die();
         $subject = "Activation Email Fishy Thingy";
         $message = "Hello $username," . PHP_EOL . "Please activate your account with this key" .
         'fish.alwaysdata.net/ActivateNow.php?message=' . $key . '&username='. $username .'">this link</a>';
